@@ -22,6 +22,7 @@ public class NodesTest {
     }
 
 
+    
 
     /**
      * Test of setNodename method, of class Nodes.
