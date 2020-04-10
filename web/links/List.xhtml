@@ -30,13 +30,13 @@
                             <f:facet name="header">
                                 <h:outputText value="#{bundle.ListLinksTitle_source}"/>
                             </f:facet>
-                            <h:outputText value="#{item.source}"/>
+                            <h:outputText value="#{ni.getNodeById(item.source)}"/>
                         </h:column>
                         <h:column>
                             <f:facet name="header">
                                 <h:outputText value="#{bundle.ListLinksTitle_destination}"/>
                             </f:facet>
-                            <h:outputText value="#{item.destination}"/>
+                            <h:outputText value="#{ni.getNodeById(item.destination)}"/>
                         </h:column>
                         <h:column>
                             <f:facet name="header">

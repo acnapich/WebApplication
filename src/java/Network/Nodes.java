@@ -23,10 +23,10 @@ public class Nodes  implements java.io.Serializable {
     public Nodes() {
     }
 
-public Nodes getNodes() {
-    return this;
-}	
-    
+    public Nodes getNodes() {
+        return this;
+    }	
+   
     public Nodes(int id, String ipaddress, String nodename) {
         this.id = id;
         this.ipaddress = ipaddress;
@@ -38,6 +38,9 @@ public Nodes getNodes() {
        this.nodename = nodename;
        this.lat = lat;
        this.lon = lon;
+       
+      
+       
     }
    
     public int getId() {
